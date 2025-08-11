@@ -1,8 +1,10 @@
 <p align="center">
-  <h1 align="center">Neo4j Graph Database</h1>
+  <h1 align="center">OpenHands</h1>
   <p align="center">
     <strong>English</strong> | <a href="README_ZH.md">简体中文</a>
   </p>
+
+
 
 ## Table of Contents
 
@@ -14,16 +16,17 @@
 
 ## Project Introduction
 
-[[openmemory-mcp](https://github.com/mem0ai/mem0/tree/main/openmemory) OpenMemory is your LLM personal memory layer, private, portable, and open-source. Your memory is stored locally, giving you complete control over your data. Build AI applications using personalized memory while ensuring data security
+[OpenHands](**https://github.com/All-Hands-AI/OpenHands**) It is an AI driven open-source software development agent platform designed to help developers perform various tasks through AI agents
 
 ### **Core Features:**
 
-- **Cross session memory storage**:Support long-term storage and calling of any text block, enabling AI to "remember" previous content in each interaction without having to start from scratch
-- **Intelligent retrieval mechanism**:Utilizing Qdrant vector database to achieve efficient retrieval based on semantic relevance, surpassing the limitations of traditional keyword matching
-- **Fully local deployment **:The entire system is built on Docker, PostgreSQL, and Qdrant, and all data is processed and stored locally without sending any information externally, ensuring privacy and security
-- **Cross tool memory sharing** : Clients that support MCP protocol (such as Claude, cursor, Windsurf) can seamlessly access the same memory repository, eliminating the need for duplicate input contexts
+- **Code generation and modification: **OpenHands can automatically generate high-quality code, helping developers quickly complete the core parts of the project and reducing the time spent manually writing code. It can also understand and modify existing code, achieving automated code modification through steps such as natural language parsing, AST analysis, context completion, patch generation, and secure execution
+- **Web Interaction and Automation Testing:** OpenHands has built-in full web automation capabilities, allowing users to browse web pages, execute commands, call APIs, and even copy code snippets from StackOverflow like human developers
+- **Multi language support:** OpenHands supports multiple language models, such as GPT-4, Claude, and Llama, and users can configure them through the Litellm library
 
-The open - source image product [**openmemory-mcp**]() ， provided in this project has pre installed the relevant runtime environment and provided deployment templates. Come and refer to the user guide to easily unlock the efficient experience of "out of the box use".
+
+
+The open - source image product [**OpenHands-Programming Agent**]() provided by this project has Neo4j and its related runtime environment pre - installed and provides deployment templates. Come and refer to the usage guide to easily start an "out - of - the - box" and efficient experience!
 
 > **System requirements are as follows:**
 >
@@ -37,9 +40,9 @@ The open - source image product [**openmemory-mcp**]() ， provided in this proj
 
 ## Image Description
 
-| Image Specification                                          | Feature Description                                          | Remarks |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------- |
-| [openmemory-mcp-v0.1.11-kunpeng](https://github.com/HuaweiCloudDeveloper/vllm-image/blob/openmemory-mcp-v0.1.11-kunpeng/README.md) | Installed and deployed based on Kunpeng servers + Huawei Cloud EulerOS 2.0 64bit |         |
+| Image Specification                                          | Feature Description                                          | Remark |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------ |
+| [openhands-v0.48.0-kunpeng](https://github.com/HuaweiCloudDeveloper/neo4j-image/tree/openhands-v0.48.0-kunpeng) | Installed and deployed based on Kunpeng servers + Huawei Cloud EulerOS 2.0 64bit |        |
 
 ## Get Help
 
